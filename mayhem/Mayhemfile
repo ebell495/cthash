@@ -1,0 +1,6 @@
+project: cthash
+target: cthash-fuzz
+
+cmds:
+    - cmd: ./cthash-fuzz
+      libfuzzer: true
